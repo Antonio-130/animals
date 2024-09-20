@@ -13,7 +13,7 @@ function App() {
       <Route path="/animals" component={ListOfAnimals} />
       <Route path="/animals/:id" component={AnimalDetail} />
 
-      <Route>
+      <Route path="/*">
         <h1>404 not found</h1>
         <Link to="/">← Volver</Link>
       </Route>

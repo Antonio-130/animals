@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { animals } from "../../data";
+import { Suspense } from "react";
 
 export default function ListOfAnimals() {
   return (
